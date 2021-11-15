@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--主配置文件-->
+<configuration>
+    <!-- 配置环境 -->
+    <environments default="mysql">
+        <!--配置mysql环境-->
+        <environment id="mysql">
+            <!--配置事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置数据源连接池-->
+            <dataSource type="POOLED">
+                <!--配置连接数据库的四个基本信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <!--?serverTimezone=UTC时区问题-->
+                <property name="url" value="jdbc:mysql://localhost:3306/book?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="a123456"/>
+
+                <!--
+    user表
+Create Table
+
+CREATE TABLE `user` (
+  `id` int(16) NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `birthday` datetime DEFAULT NULL,
+  `sex` varchar(16) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `address` varchar(32) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+
+                -->
+            </dataSource>
+           
+            
+        </environment>
+    </environments>
+
+    <!--映射配置文件，每个dao独立的配置文件-->
+    <mappers>
+        <mapper resource="UserDao.xml"></mapper>
+    </mappers>
+</configuration>
