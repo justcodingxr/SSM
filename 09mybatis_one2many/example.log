@@ -1,0 +1,75 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1260634890.
+DEBUG main com.dao.AccountDao.findAll - ==>  Preparing: select * from account 
+DEBUG main com.dao.AccountDao.findAll - ==> Parameters: 
+DEBUG main com.dao.AccountDao.findAll - <==      Total: 3
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4b23c30a]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1260634890 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 820537534.
+DEBUG main com.dao.AccountDao.findAllAccount - ==>  Preparing: select a.*,u.username,u.address from account a,user u where a.id=u.id 
+DEBUG main com.dao.AccountDao.findAllAccount - ==> Parameters: 
+DEBUG main com.dao.AccountDao.findAllAccount - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30e868be]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 820537534 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 820537534.
+DEBUG main com.dao.AccountDao.findAllAccount - ==>  Preparing: select a.*,u.username,u.address from account a,user u where a.id=u.id 
+DEBUG main com.dao.AccountDao.findAllAccount - ==> Parameters: 
+DEBUG main com.dao.AccountDao.findAllAccount - <==      Total: 2
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30e868be]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 820537534 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 820537534.
+DEBUG main com.dao.UserDao.findAll - ==>  Preparing: select * from user 
+DEBUG main com.dao.UserDao.findAll - ==> Parameters: 
+DEBUG main com.dao.UserDao.findAll - <==      Total: 6
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30e868be]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 820537534 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1424482154.
+DEBUG main com.dao.UserDao.findAll - ==>  Preparing: select * from user u left outer join account a on u.id = a.uid 
+DEBUG main com.dao.UserDao.findAll - ==> Parameters: 
+DEBUG main com.dao.UserDao.findAll - <==      Total: 7
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54e7df6a]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1424482154 to pool.
